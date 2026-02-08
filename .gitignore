@@ -1,0 +1,105 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================================
+# Node.js / Frontend
+# ========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+dist-ssr/
+*.local
+
+# ========================================
+# Environment variables
+# ========================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# MAIS garder les exemples
+!.env.example
+
+# ========================================
+# IDE / Editors
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Docker
+# ========================================
+# Ne pas ignorer les Dockerfiles !
+# Mais ignorer les fichiers temporaires Docker
+
+# ========================================
+# Logs
+# ========================================
+*.log
+logs/
+
+# ========================================
+# Captures d'écran (pour le rendu)
+# ========================================
+# Créez un dossier captures/ et NE PAS l'ignorer
+# pour pouvoir commiter vos captures d'écran
+
+# ========================================
+# OS
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================================
+# Backup files
+# ========================================
+*.bak
+*.backup
+*.old
+*.orig
+
+# ========================================
+# PostgreSQL
+# ========================================
+*.sql
+# Sauf les fichiers d'init
+!init.sql
+!schema.sql
